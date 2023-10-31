@@ -1,4 +1,4 @@
-👋 [Netlify Link](vitoputrasutarno-m2.netlify.app) 👋
+👋 [Netlify Link](https://vitoputrasutarno-m2.netlify.app) 👋
 
 ## Vito Putra Sutarno
 
