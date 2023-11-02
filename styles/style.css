@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script:wght@700&family=Elsie&family=Elsie+Swash+Caps&family=Monsieur+La+Doulaise&family=Roboto:wght@400;500;700;900&family=Rock+3D&family=Sacramento&family=Stardos+Stencil&family=Tiro+Bangla&display=swap');
+@font-face {
+    font-family: 'Rock 3D';
+    src: url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Dancing+Script:wght@700&family=Elsie&family=Elsie+Swash+Caps&family=Monsieur+La+Doulaise&family=Roboto:wght@400;500;700;900&family=Rock+3D&family=Sacramento&family=Stardos+Stencil&family=Tiro+Bangla&display=swap');
+}
+
 :root {
     --primaryTextColor: #0000FF;
     --secondaryTextColor: #656d72;
@@ -23,8 +27,36 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: "Roboto", sans-serif;
+body.dark-mode {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+body.light-mode {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+.fade-in {
+    animation: fadeIn ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Light mode */
+body.light-mode {
+    background-color: #ffffff;
+    color: #333333;
 }
 
 h1,h2,h3,h4,h5,h6, strong {
@@ -479,6 +511,37 @@ footer {
 
 .footer-icons a:hover svg {
     fill: #000;
+}
+
+.dark-mode-button {
+    background-color: #f8f9fa; /* Light grey background */
+    color: #333; /* Dark text */
+    border: 2px solid #333; /* Dark border */
+    border-radius: 20px; /* Rounded borders */
+    padding: 0.5rem 1rem; /* Some padding */
+    margin-bottom: 10px;
+    font-weight: bold; /* Make the text bold */
+    cursor: pointer; /* Cursor indicates it's clickable */
+    outline: none; /* Removes the outline to make it look cleaner */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Smooth transition for color changes */
+}
+
+/* Style for when dark mode is active */
+.dark-mode-button.dark {
+    background-color: #333; /* Dark background */
+    color: #f8f9fa; /* Light text */
+    border-color: #f8f9fa; /* Light border */
+}
+
+/* On hover, make the colors slightly lighter/darker */
+.dark-mode-button:hover {
+    background-color: #e2e6ea;
+    border-color: #292b2c;
+}
+
+.dark-mode-button.dark:hover {
+    background-color: #292b2c;
+    border-color: #f8f9fa;
 }
 
 
