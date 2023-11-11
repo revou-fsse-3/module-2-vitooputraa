@@ -1,4 +1,4 @@
-👋 [Netlify Link](http://vitoputra.site) 👋
+👋 [Site Link](http://vitoputra.site) 👋
 
 ## Vito Putra Sutarno
 
