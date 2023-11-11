@@ -99,3 +99,33 @@ printf("Hello World!");
 console.log("Hello World!");
 ```
 ---
+
+
+# Deskripsi
+Kode HTML ini menggambarkan struktur dari website portofolio pribadi Vito Putra Sutarno. Website ini dirancang untuk memamerkan kemampuannya, latar belakang pendidikannya, portofolio unggulan, dan menyediakan cara bagi pengunjung untuk menghubunginya.
+
+## Teknologi yang Digunakan
+- HTML5
+- CSS3
+
+## Bagian Website
+Website ini terdiri dari beberapa bagian berikut:
+
+- Header: Berisi menu navigasi, gambar profil, dan bagian hero dengan pengantar singkat.
+
+- Layanan: Menyoroti layanan yang ditawarkan oleh Vito, termasuk Desain UI/UX, Analisis Data, dan Pengembangan Web.
+
+- Portofolio: Memamerkan proyek-proyek portofolio unggulan, masing-masing dengan judul, deskripsi, dan tag.
+
+- Kemampuan & Pendidikan: Memberikan informasi tentang latar belakang pendidikan Vito dan kemampuannya.
+
+- Kontak: Menyediakan formulir kontak untuk pengunjung mengirim pesan kepada Vito. Juga menampilkan informasi kontak.
+
+- Footer: Berisi tautan ke profil media sosial Vito dan pemberitahuan hak cipta.
+
+- Screenshot
+Berikut adalah tangkapan layar dari website:
+
+![SS1](assets/SS1.jpg)
+![SS2](assets/SS2.jpg)
+![SS3](assets/SS3.jpg)
